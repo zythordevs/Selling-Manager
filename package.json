@@ -1,0 +1,17 @@
+{
+  "name": "shopsy-manager",
+  "version": "1.0.0",
+  "description": "Vouches, feedback, stock, proofs, payments and tickets - built on Discord Components V2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.65",
+    "discord.js": "^14.22.1",
+    "dotenv": "^16.4.5",
+    "mongodb": "^6.10.0"
+  }
+}
